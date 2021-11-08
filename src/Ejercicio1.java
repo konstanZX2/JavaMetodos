@@ -1,31 +1,73 @@
+
 import java.util.Scanner;
 
 public class Ejercicio1 {
+
+
+
+    public static void esMayorDeEdad(int edad) {
+
+        if (edad >= 18) {
+            System.out.println("Es mayor de edad");
+
+        }else {
+            System.out.println("Menor de edad");
+
+        }
+    }
     public static void main(String[] args) {
-        int edad;
         System.out.println("Introduzca su edad");
         Scanner escaneado = new Scanner(System.in);
-        edad = escaneado.nextInt();
-      /*  int edad;
+        int edad = escaneado.nextInt();
+        esMayorDeEdad(edad);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  int edad;
         System.out.println("Introduzca su edad");
         Scanner escaneado = new Scanner(System.in);
         edad = escaneado.nextInt();
         if (edad >=18) {
             System.out.println("Mayor de edad");}
-        if (edad < 18) {
-            System.out.println("Menor de edad");}*/
-        public static void calculo{
-
-        (if (edad >= 18) {
-            System.out.println("Mayor de edad");
-        }
-        if (edad < 18) {
-            System.out.println("Menor de edad");
-        }
+        ;}*/
 
 
-    }
-}
+
+
 
 
 
