@@ -16,7 +16,7 @@ public class Ejercicio1 {
             System.out.println("Menor de edad");}*/
         public static void calculo{
 
-        escaner(if (edad >= 18) {
+        (if (edad >= 18) {
             System.out.println("Mayor de edad");
         }
         if (edad < 18) {
