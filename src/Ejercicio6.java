@@ -15,7 +15,7 @@ public class Ejercicio6 {
         double n=escaneado.nextInt();
         System.out.println("Introduzca el segundo numero");
         double m=escaneado.nextInt();
-
+        esDivisible(n,m);
 
     }
 }
