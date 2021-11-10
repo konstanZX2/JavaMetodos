@@ -1,11 +1,7 @@
 import java.util.Scanner;
 
 public class Ejercicio3 {
-    public static void main(String[] args) {
-        System.out.println("Introduzca la nota del examen");
-        int notaDelExamen;
-        Scanner escaneado = new Scanner(System.in);
-        notaDelExamen = escaneado.nextInt();
+    public static void evaluacionExamen(int notaDelExamen) {
         if (notaDelExamen < 3 && notaDelExamen >= 0) {
             System.out.println("Muy Deficiente");
         } else if (notaDelExamen >= 3 && notaDelExamen < 5) {
@@ -21,5 +17,14 @@ public class Ejercicio3 {
         } else {
             System.out.println("La nota que has introducido no es parte del sistema");
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Introduzca la nota del examen");
+        int notaDelExamen;
+        Scanner escaneado = new Scanner(System.in);
+        notaDelExamen = escaneado.nextInt();
+        evaluacionExamen(notaDelExamen);
+
     }
 }
