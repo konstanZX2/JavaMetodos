@@ -18,5 +18,6 @@ public class Ejercicio6 {
         double m=escaneado.nextInt();
         esDivisible(n,m);
 
+
     }
 }
