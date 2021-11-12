@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 
 public class Ejercicio6 {
-    public static boolean esDivisible(double n,double m){
-        boolean si=false;
+    public static boolean esDivisible(double n, double m){
+        boolean elBooleano=false;
         if ((n/m)>0){
-            si = true;
-       }
-        return si;
+           return elBooleano=true;
+
+       }return elBooleano;
+
     }
     public static void main(String[] args) {
         Scanner escaneado= new Scanner(System.in);
