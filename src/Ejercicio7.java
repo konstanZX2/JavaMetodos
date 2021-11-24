@@ -8,7 +8,7 @@ public class Ejercicio7 {
         } else if (lado2 > (lado1 + lado3)) ;
         {
             comprobacion = false;
-        }else if (lado3 > (lado1 + lado2)) ;
+        } if (lado3 > (lado1 + lado2)) ;
         {
            comprobacion = false;
         }
